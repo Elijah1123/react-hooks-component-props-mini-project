@@ -1,11 +1,11 @@
 import React from "react";
 
 function About({ image, about }) {
-  const defaultImage = "https://via.placeholder.com/215"; // Default image URL
+  const defaultImage = "https://via.placeholder.com/215";
   return (
     <aside>
       <img
-        src={image || defaultImage} // Use image prop if provided, otherwise fallback to default image
+        src={image || defaultImage} 
         alt="blog logo"
       />
       <p>{about}</p>
